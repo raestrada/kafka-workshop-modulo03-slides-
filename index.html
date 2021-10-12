@@ -42,7 +42,7 @@
 						<script type="text/template">
 							> Los eventos no son eliminados después de ser consumidos y pueden ser retenidos
 							sin impacto en el desempeño , tanto como se requiera. 
-							Pueden ser léidos en cualquier momento.
+							Pueden ser leidos en cualquier momento.
 						</script>
 					</section>
 				</section>
@@ -140,7 +140,7 @@
 
 							Por eficiencia y latencia, Kafka conecta al cliente directo a la IP del broker dónde
 							está la partición requerida. Cualquier broker es capaz de redirigir al cliente o se puede
-							usar el servicio de bootstraping de kafka, qie interactúa directo con Zookeeper.
+							usar el servicio de bootstrapping de kafka, qie interactúa directo con Zookeeper.
 							
 							1. Cliente solicita conexión a partición
 							2. Bootstrap (o broker), devuelve la IP del broker
@@ -342,7 +342,7 @@ y 8GBG RAM. Para trabajo local, se puede montar la carpeta de trabajo de la VM u
 						<script type="text/template">
 							### Instalar Kafka
 
-							Para Kafka en modo productivo el primer paso es decargar la distribucón strimzi-lab
+							Para Kafka en modo productivo el primer paso es descargar la distribución strimzi-lab
 							consistente en una serie de manifiestos Kubernetes e imágenes de Docker. Descargar
 							la distribución de Strimzi [aquí](https://strimzi.io/docs/operators/latest/deploying.html).
 
@@ -626,7 +626,7 @@ y 8GBG RAM. Para trabajo local, se puede montar la carpeta de trabajo de la VM u
 						<script type="text/template">
 							### Conexión segura por TLS
 							
-							Antes de ejecutar el cliente, debemos crar un tópico:
+							Antes de ejecutar el cliente, debemos crear un tópico:
 
 							```yaml
 							apiVersion: kafka.strimzi.io/v1beta2
